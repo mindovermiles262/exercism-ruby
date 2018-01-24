@@ -1,8 +1,8 @@
 module Gigasecond
-    GIGASECOND = 1000000000
+    GIGASECOND = 1_000_000_000
 
     def self.from(birthday)
-      (birthday + GIGASECOND)
+      birthday + GIGASECOND
     end
 end
 
