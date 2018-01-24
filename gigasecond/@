@@ -1,0 +1,10 @@
+module GigaSecond
+  class GigaSecond
+    GIGASECOND = 1_000_000_000
+
+    def self.from(birthday)
+      (birthday.to_time + GIGASECOND).to_date  
+    end
+
+  end
+end
